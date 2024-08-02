@@ -1,9 +1,14 @@
+import Home from './components/home/Home'
+import NavBar from './components/NavBar'
 function App() {
-  
 
   return (
     <div>   
-        <h1>Start From Here</h1>
+
+      <NavBar/>
+
+        
+       
       
     </div>
   )
