@@ -1,21 +1,25 @@
 import styles from './NavBar.module.css'
-import logo from '../assets/logo.jpeg'
+import logo from '../assets/MainLogo.png'
 
 
 
 
 function NavBar() {
+
+
   return (
+
     <div>
+
       <div className={styles.navbar}>
         <img src={logo} alt="logo" className={styles.logo} />
 
         <ul className={styles.navMenu}>
-          <li> Home</li>
-          <li>About Me </li>
+          <li>   <a href="#home">Home</a></li>
+          <li>  <a href="#about">About Me</a> </li>
         
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li> <a href="#services">Services</a> </li>
+          <li><a href="#contact">Contact</a></li>
 
 
         </ul>

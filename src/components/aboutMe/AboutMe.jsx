@@ -4,7 +4,7 @@ import pic from '../../assets/profilePic.jpeg'
 
 const AboutMe = () => {
   return (
-    <div className={styles.about}>
+    <div id = "about" className={styles.about}>
       <div className={styles.aboutTitle}>
         <h1>About Me</h1>
        

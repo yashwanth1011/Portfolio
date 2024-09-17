@@ -7,7 +7,7 @@ import { FaMapLocation } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className={styles.contact}>
+    <div id = "contact" className={styles.contact}>
       <div className={styles.contactTitle}>
         <h1>Get in Touch</h1>
         {/* <img src="{theme_pattern}" alt="theme image" /> */}
