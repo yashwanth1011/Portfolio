@@ -15,11 +15,11 @@ function NavBar() {
         <img src={logo} alt="logo" className={styles.logo} />
 
         <ul className={styles.navMenu}>
-          <li >   <a href="#home" className={styles.menu}>Home</a></li>
-          <li >  <a href="#about" className={styles.menu}>About Me</a> </li>
+          <li>   <a href="#home">Home</a></li>
+          <li>  <a href="#about">About Me</a> </li>
         
-          <li > <a href="#services" className={styles.menu}>Services</a> </li>
-          <li ><a href="#contact" className={styles.menu}>Contact</a></li>
+          <li> <a href="#services">Services</a> </li>
+          <li><a href="#contact">Contact</a></li>
 
 
         </ul>
